@@ -1,37 +1,13 @@
-<<<<<<< HEAD
-\documentclass[Journal,letterpaper, NoLineNumbers]{ascelike-new}
-%% Please choose the appropriate document class option:
-% "Journal" produces double-spaced manuscripts for ASCE journals.
-% "NewProceedings" produces single-spaced manuscripts for ASCE conference proceedings.
-% "Proceedings" produces older-style single-spaced manuscripts for ASCE conference proceedings. 
-%
-%% For more details and options, please see the notes in the ascelike-new.cls file.
-
-% Some useful packages...
+\documentclass{article}
 \usepackage{booktabs}
 \usepackage{dcolumn}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{graphicx}
-\usepackage[figurename=Fig.,labelfont=bf,labelsep=period]{caption}
 \usepackage{subcaption}
 \usepackage{amsmath}
-%\usepackage{amsfonts}
-%\usepackage{amssymb}
-%\usepackage{amsbsy}
-\usepackage{epigraph}
-\usepackage{newtxtext,newtxmath}
-\usepackage[colorlinks=true,citecolor=red,linkcolor=black]{hyperref}
-%
-% Please add the first author's last name here for the footer:
-
-% Note that this is not displayed if the NoPageNumbers option is used
-% in the documentclass declaration.
-
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
 \begin{document}
-
-% You will need to make the title all-caps
 \title{Increasing Returns and Long-Run Growth}
 
 \author[1]{Brandon Kaplowitz, Eric Li}
@@ -42,47 +18,14 @@ This paper extends the Long-run growth model with increasing returns on knowledg
 
 \end{abstract}
 
-\section{I. Introduction}
-=======
-\documentclass{amsart}
-\renewcommand{\thesection}{\Roman{section}} 
-\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
-\usepackage{booktabs}
-\usepackage{dcolumn}
-\usepackage[utf8]{inputenc}
-\usepackage{subcaption}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{amsbsy}
-\usepackage[american]{babel}
-\usepackage[babel]{csquotes}
-\usepackage[natbib,backend=biber]{biblatex-chicago}
-\addbibresource{shimer.bib}
-\begin{document}
-\title{Increasing Returns and Long-Run Growth}
-
-\author[1]{Brandon Kaplowitz, Eric Li}
-
-
-\begin{abstract}
-This paper extends the Long-Run growth model with increasing returns on knowledge first presented by \autocite{Romer1986}. We introduce an additional factor of production, human capital, which exhibits decreasing returns. This additional factor enables us to endogenize the limit on the rate of marginal return of the research technology, which is bounded exogenously by Romer. Moreover, as human capital may be measured empirically by proxy variables such as education, we are able to test theory with data. Our extension does not affect the increasing long-run growth result derived by Romer.  
-
-\end{abstract}
-\maketitle
 \section{Introduction}
->>>>>>> 45e75d840df9a4299b31caca200f643d5fb7afe0
 A basic assumption of the neoclassical growth model is diminishing marginal return on capital, which produces constant growth rates at steady state. Romer (1986) relaxes this assumption and presents a model of long-run growth in which knowledge is assumed to be a factor of production that exhibits increasing marginal productivity. To guarantee the existence of a competitive equilibrium, Romer endogenizes the growth of knowledge by introducing a research technology, an investment function which produces knowledge. By imposing an exogenous limit on this research function, Romer derives a competitive equilibrium with increasing long-run growth rates. 
 
 Romer's model is supported, at least qualitatively, by many empirical evidence. As Romer points out, long-run growth rates of frontier nations has increased from around 0\% to today's 2\%, suggesting increasing growth. Marginal knowledge also seems to exhibit increasing productivity, as evidenced by Moore's Law. It is, nevertheless, a bare-bone model with too-powerful assumptions. For instance, all factors of production other than knowledge is assumed to be in fixed supply. Moreover, Romer imposes an exogenous limit on the research technology, an assumption that may be endogenized. This model also does not lend itself to direct empirical testing, as knowledge, the only variable input, may be difficult to quantify or measure. 
 
 In this paper, we first present Romer's long-run growth model in section II. While the original model is solved as a continuous-time problem, We choose to discretize the model for ease of empirical testing in latter parts of the paper. In section III, we introduce an additional variable in the production function, namely human capital. Moreover, we endogenize the limit on the research technology using the rate of return on human capital, a decreasing value. In section IV, we introduce ways to measure human capital and knowledge, and presents methodologies to test the extended model. We present our results in section V.
  
-<<<<<<< HEAD
-\section{II. Discretized Model}
-=======
 \section{Discretized Model}
->>>>>>> 45e75d840df9a4299b31caca200f643d5fb7afe0
 
 We first present Romer's original model in a discretized form. We assume an economy characterized by N identical representative consumers and N different firms. We let the number of consumers to be equal to the number of firms for algebraic ease, such as per capita and per firm values are always equal. This same assumption is implicitly made in the neoclassical model, which normalizes the number of consumers and firms to 1. We allow for multiple firms because we wish to introduce a distinction between private knowledge, $k_i$, which firm $i$ augments by investment, and public knowledge $K$, which every firm has access to and takes as given. Public knowledge is defined simply as the sum of all private knowledge, i.e., $K \equiv \sum\limits_{n=1}^{N} k_i$. Implicitly, perfect information is assumed as every firm is able to "see" the aggregate knowledge about production. This is not unrealistic, considering many regulations require firms to disclose relevant information, and that even patented knowledge cannot be kept perfectly secret. The important implication is that knowledge has a positive external effect on production. It is true that dissemination of information is often imperfect in real life, however, it is evident that knowledge is a public good, and this assumption allows us to easily model this externality. Another assumption is that the initial knowledge stock $k_{i,0}$ is constant across all firms. This assumption may initially sound very strong, but its rationale will be discussed a few paragraphs below. 
 
@@ -135,11 +78,7 @@ Then, we solve the following problem:
 \end{equation*}
 
 
-<<<<<<< HEAD
-\section{III. Extended Model}
-=======
 \section{Extended Model}
->>>>>>> 45e75d840df9a4299b31caca200f643d5fb7afe0
 
 We introduce a new factor of production, $H_t$, which stands for human capital of firm or the whole economy? If the latter, do we assume all firms have access to it? If the former, do we assume this to be constant across all firms? How to justify this, and what is initial human capital?
 
@@ -149,21 +88,11 @@ $F$ is exhibits decreasing returns with respect to $H_t$,
 
 A competitive equilibrium must still exist under our modificiations, as they do not violate any assumptions used in Romer's proofs. By introducing $H_t$, we merely specified one of the variables in $x$ in Romer's model. As $H_t$ demonstrates decreasing returns, just as the variables in $x$, no assumption about the production function is altered. The other modification, namely endogenizing the limit of $g$, also does not affect the existence of a competitive equilibrium. Romer required that $g$ always be bounded by some positive number, and our model binds $g$ such that it is always less than than the marginal return of human capital, which is a finite, positive number. -- Is this a mismatch? g is a rate and marginal return is a raw number, of course g is also a value. How do we do this to make intuitive sense? saying g is less than marginal rate seems really strict, so long g is finite everything is fine. 
 
-<<<<<<< HEAD
-\section{IV. Data and Methodology}
-
-\section{V. Results}
-
-
-\section{References}
-Romer, Paul M. (1986), "Increasing Returns and Long-Run Growth," \textit{The Journal of Political Economy}, Vol. 94, No. 5. (Oct., 1986), pp. 1002-1037.
-\end{document}
-=======
 \section{Data and Methodology}
 
 \section{Results}
 
 
-\printbibliography
+\section{References}
+Romer, Paul M. (1986), "Increasing Returns and Long-Run Growth," \textit{The Journal of Political Economy}, Vol. 94, No. 5. (Oct., 1986), pp. 1002-1037.
 \end{document}
->>>>>>> 45e75d840df9a4299b31caca200f643d5fb7afe0
