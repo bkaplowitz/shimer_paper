@@ -1,6 +1,4 @@
-\documentclass{amsart}
-\renewcommand{\thesection}{\Roman{section}} 
-\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+\documentclass{article}
 \usepackage{booktabs}
 \usepackage{dcolumn}
 \usepackage[utf8]{inputenc}
@@ -9,21 +7,17 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsbsy}
-\usepackage[american]{babel}
-\usepackage[babel]{csquotes}
-\usepackage[natbib,backend=biber]{biblatex-chicago}
-\addbibresource{shimer.bib}
 \begin{document}
 \title{Increasing Returns and Long-Run Growth}
 
 \author[1]{Brandon Kaplowitz, Eric Li}
-
+\maketitle
 
 \begin{abstract}
-This paper extends the Long-Run growth model with increasing returns on knowledge first presented by \autocite{Romer1986}. We introduce an additional factor of production, human capital, which exhibits decreasing returns. This additional factor enables us to endogenize the limit on the rate of marginal return of the research technology, which is bounded exogenously by Romer. Moreover, as human capital may be measured empirically by proxy variables such as education, we are able to test theory with data. Our extension does not affect the increasing long-run growth result derived by Romer.  
+This paper extends the Long-run growth model with increasing returns on knowledge first presented by Romer (1986). We introduce an additional factor of production, human capital, which exhibits decreasing returns. This additional factor enables us to endogenize the limit on the rate of marginal return of the research technology, which is bounded exogenously by Romer. Moreover, as human capital may be measured empirically by proxy variables such as education, we are able to test theory with data. Our extension does not affect the increasing long-run growth result derived by Romer.  
 
 \end{abstract}
-\maketitle
+
 \section{Introduction}
 A basic assumption of the neoclassical growth model is diminishing marginal return on capital, which produces constant growth rates at steady state. Romer (1986) relaxes this assumption and presents a model of long-run growth in which knowledge is assumed to be a factor of production that exhibits increasing marginal productivity. To guarantee the existence of a competitive equilibrium, Romer endogenizes the growth of knowledge by introducing a research technology, an investment function which produces knowledge. By imposing an exogenous limit on this research function, Romer derives a competitive equilibrium with increasing long-run growth rates. 
 
@@ -99,5 +93,6 @@ A competitive equilibrium must still exist under our modificiations, as they do 
 \section{Results}
 
 
-\printbibliography
+\section{References}
+Romer, Paul M. (1986), "Increasing Returns and Long-Run Growth," \textit{The Journal of Political Economy}, Vol. 94, No. 5. (Oct., 1986), pp. 1002-1037.
 \end{document}
