@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1488990346 "shimer paper.tex" "shimer paper.pdf" "shimer paper" 1488990347
+["pdflatex"] 1488997650 "shimer paper.tex" "shimer paper.pdf" "shimer paper" 1488997650
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -68,12 +68,12 @@
   "/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty" 1485129666 12396 d41f82b039f900e95f351e54ae740f31 ""
   "/usr/local/texlive/2016/texmf-dist/tex/latex/tools/dcolumn.sty" 1480098841 2757 c5b68c40b2b33cff6b22d86273d37e2f ""
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1488495668 32024 319bf8a79fafbc1d95eafac6b6c6658b ""
-  "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1474100694 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
-  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
+  "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1488990406 2347740 a64585bea74103e522e12ca1308ca721 ""
+  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1488990466 3873788 dd9af968950219fc7da4a8167587bf31 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "shimer paper.aux" 1488990346 479 6051e57ea996adaa6442523ca754d448 ""
-  "shimer paper.tex" 1488990341 14961 3b8451c189bc279f31e18c1eebebbb3c ""
+  "shimer paper.aux" 1488997650 460 dd3251c54e9dd581098a515933679685 ""
+  "shimer paper.tex" 1488997582 14942 60a464d9a1f3db139b9c5642a0a18901 ""
   (generated)
   "shimer paper.pdf"
-  "shimer paper.aux"
   "shimer paper.log"
+  "shimer paper.aux"
