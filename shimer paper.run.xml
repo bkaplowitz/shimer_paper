@@ -54,9 +54,8 @@
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
-      <file>chicago-authordate.bbx</file>
-      <file>chicago-authordate.cbx</file>
-      <file>chicago-dates-common.cbx</file>
+      <file>chicago-notes.bbx</file>
+      <file>chicago-notes.cbx</file>
       <file>biblatex.cfg</file>
       <file>cms-american.lbx</file>
       <file>american.lbx</file>
@@ -80,6 +79,9 @@
     </provides>
     <requires type="dynamic">
       <file>"shimer paper".bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>shimer.bib</file>
     </requires>
   </external>
 </requests>

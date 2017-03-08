@@ -1,0 +1,51 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{cms/global/}
+    \entry{Romer1986}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0644b4cdc26cf4f0938a970cfbdad28b}{%
+           family={Romer},
+           familyi={R\bibinitperiod},
+           given={Paul\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0644b4cdc26cf4f0938a970cfbdad28b}
+      \strng{fullhash}{0644b4cdc26cf4f0938a970cfbdad28b}
+      \strng{authornamehash}{0644b4cdc26cf4f0938a970cfbdad28b}
+      \strng{authorfullhash}{0644b4cdc26cf4f0938a970cfbdad28b}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a fully specified model of long-run growth in which knowledge is assumed to be an input in production that has increasing marginal productivity. It is essentially a competitive equilibrium model with endogenous technological change. In contrast to models based on diminishing returns, growth rates can be increasing over time, the effects of small disturbances can be amplified by the actions of private agents, and large countries may always grow faster than small countries. Long-run evidence is offered in support of the empirical relevance of these possibilities.}
+      \field{issn}{0022-3808}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{5}
+      \field{title}{{Romer - Increasing returns and long run growth.pdf}}
+      \field{volume}{94}
+      \field{year}{1986}
+      \field{pages}{1002\bibrangedash 1037}
+      \range{pages}{36}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
